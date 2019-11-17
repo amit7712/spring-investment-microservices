@@ -1,0 +1,17 @@
+<h2>Resources</h2>
+<table class="table table-striped">
+    <thead>
+    <tr>
+        <th>Receipniest Name</th>
+        <th>Receipniest Number</th>
+        <th>Branch</th>
+    </tr>
+    </thead>
+
+    <tr ng-repeat="vet in $ctrl.vetList">
+        <td>{{vet.firstName}}</td>
+         <td>{{vet.lastName}}</td>
+        <td><span ng-repeat="specialty in vet.specialties">{{specialty.name + ' '}}</span></td>
+
+    </tr>
+</table>

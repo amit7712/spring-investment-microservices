@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Implementation-Title: spring-config-server
+Implementation-Version: 2.1.4
+Built-By: AMIT
+Implementation-Vendor-Id: org.springframwrok.samples.config.server
+Build-Jdk: 1.8.0_151
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-bo
+ ot-starter-parent/spring-investment-microservices/spring-config-serve
+ r
+Created-By: Maven Integration for Eclipse
+
